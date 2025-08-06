@@ -1,6 +1,6 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Summary"
+image: Growing.jpg
 about:
   template: jolla
   links:
@@ -15,12 +15,4 @@ about:
       href: https://github.com
 ---
 
-A summary of the entire website I made
-
-Type something
-
-**Bold**
-
-# Header
-
-I am making a website, or a book, or a PDF
+The data I wanted to truly focus on was on r

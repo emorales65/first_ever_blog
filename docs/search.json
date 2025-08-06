@@ -4,28 +4,70 @@
     "href": "index.html",
     "title": "quartoCourseBlog",
     "section": "",
-    "text": "Hello, It is the one and only and I’m tired\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First post\n\n\n\ngoals\n\ngeneral\n\n\n\n\n\n\n\n\n\nOct 21, 2022\n\n\nMatt Crump\n\n\n\n\n\n\n\n\n\n\n\n\nExample assignment\n\n\n\ngoals\n\ngeneral\n\n\n\n\n\n\n\n\n\nOct 21, 2022\n\n\nMatt Crump\n\n\n\n\n\nNo matching items"
+    "text": "Hello, My name is Estephanie! Hope you enjoy my website\nWelcome to my page - it will be all about my work with R and Quarto. Done at Dominican University over a 5 day course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA magical project\n\n\n\ngoals\n\ngeneral\n\n\n\n\n\n\n\n\n\nAug 6, 2025\n\n\nEstephanie Morales\n\n\n\n\n\n\n\n\n\n\n\n\nExample assignment\n\n\n\ngoals\n\ngeneral\n\n\n\n\n\n\n\n\n\nOct 21, 2022\n\n\nMatt Crump\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/my_first_post/index.html",
     "href": "posts/my_first_post/index.html",
-    "title": "My First post",
+    "title": "A magical project",
     "section": "",
-    "text": "This is an example first post. Whatever you write here will appear inside your post.\nIt is possible to write lists:\nAnd make headers"
+    "text": "Enter in the creative mind of what it took to build my Magical project!"
   },
   {
-    "objectID": "posts/my_first_post/index.html#this-is-a-second-level-heading",
-    "href": "posts/my_first_post/index.html#this-is-a-second-level-heading",
-    "title": "My First post",
-    "section": "This is a second level heading",
-    "text": "This is a second level heading\nYou can include images, and many other kinds of content.\nIf you are using the visual editor in Rstudio you can drag images onto the editor to insert them into the document. Otherwise, you need to place the image inside of the folder for this post, and then you can insert it to your post directly, like this:\n\nThe first image in a blog post will also be used on the listings page."
+    "objectID": "posts/my_first_post/index.html#sec-intro",
+    "href": "posts/my_first_post/index.html#sec-intro",
+    "title": "A magical project",
+    "section": "Introduction",
+    "text": "Introduction\nOut of all the racial population which of those races have a higher arrest record in murder and drug related offences? \nMy prediction is that the African American race has a much higher arrest rate for murder and drug offences than any other race?\nThe data source that will help me answer my question is Arrests by Race - which lists out the different types of murders and for each offence the percentage of each race that the crime was committed by is listed."
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#sec-methods",
+    "href": "posts/my_first_post/index.html#sec-methods",
+    "title": "A magical project",
+    "section": "Methods",
+    "text": "Methods\n\nWhat is the source? The source is from the FBI UCR \n\n\n\nHow was the data collected? law enforcement agencies across the United States provide the data to the FBI. The FBI then arranges the reports, sorts and organizes the information and fills missing information with some they have and then publishes both the raw data and trend analyses.   \n\n\n\nWhat are the variables included? \n\n\n\nHow many records/rows/participants? 32  \n\n\n\nAny other relevant information"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#data-sources",
+    "href": "posts/my_first_post/index.html#data-sources",
+    "title": "A magical project",
+    "section": "Data sources",
+    "text": "Data sources"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#packages-used",
+    "href": "posts/my_first_post/index.html#packages-used",
+    "title": "A magical project",
+    "section": "Packages used",
+    "text": "Packages used"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#approach",
+    "href": "posts/my_first_post/index.html#approach",
+    "title": "A magical project",
+    "section": "Approach",
+    "text": "Approach"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#results",
+    "href": "posts/my_first_post/index.html#results",
+    "title": "A magical project",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#discussion",
+    "href": "posts/my_first_post/index.html#discussion",
+    "title": "A magical project",
+    "section": "Discussion",
+    "text": "Discussion"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Summary",
     "section": "",
-    "text": "A summary of the entire website I made\nType something\nBold\n\nHeader\nI am making a website, or a book, or a PDF"
+    "text": "The data I wanted to truly focus on was on r"
   },
   {
     "objectID": "readme.html",

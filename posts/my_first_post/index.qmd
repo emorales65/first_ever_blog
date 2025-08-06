@@ -1,26 +1,52 @@
 ---
-title: "My First post"
-author: "Matt Crump"
-date: "2022-10-21"
+title: "A magical project"
+author: "Estephanie Morales"
+date: "2025-08-06"
 categories: [goals,general]
 ---
 
-This is an example first post. Whatever you write here will appear inside your post.
+Enter in the creative mind of what it took to build my Magical project!
 
-It is possible to write lists:
+![](tech-jobs-in-India--1--9.webp)
 
-1.  One
-2.  Two
-3.  Three
+## *Introduction* {#sec-intro}
 
-And make headers
+Out of all the racial population which of those races have a higher arrest record in murder and drug related offences? 
 
-## This is a second level heading
+My prediction is that the African American race has a much higher arrest rate for murder and drug offences than any other race?
 
-You can include images, and many other kinds of content.
+The data source that will help me answer my question is [Arrests by Race](https://www.kaggle.com/datasets/rishidamarla/arrests-by-race/data) - which lists out the different types of murders and for each offence the percentage of each race that the crime was committed by is listed.
 
-If you are using the visual editor in Rstudio you can drag images onto the editor to insert them into the document. Otherwise, you need to place the image inside of the folder for this post, and then you can insert it to your post directly, like this:
+## *Methods* {#sec-methods}
 
-![](thumbnail.jpg)
+-   What is the source? The source is from the FBI UCR 
 
-The first image in a blog post will also be used on the listings page.
+<!-- -->
+
+-   How was the data collected? law enforcement agencies across the United States provide the data to the FBI. The FBI then arranges the reports, sorts and organizes the information and fills missing information with some they have and then publishes both the raw data and trend analyses.   
+
+<!-- -->
+
+-   What are the variables included? 
+
+<!-- -->
+
+-   How many records/rows/participants? 32  
+
+<!-- -->
+
+-   Any other relevant information  
+
+## *Data sources*
+
+## *Packages used*
+
+## *Approach*
+
+## *Results*
+
+## *Discussion*
+
+## 
+
+------------------------------------------------------------------------

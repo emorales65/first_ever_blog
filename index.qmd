@@ -12,4 +12,6 @@ page-layout: full
 title-block-banner: true
 ---
 
-Hello, It is the one and only and I'm tired
+Hello, My name is Estephanie! Hope you enjoy my website
+
+Welcome to my page - it will be all about my work with R and Quarto. Done at Dominican University over a 5 day course
