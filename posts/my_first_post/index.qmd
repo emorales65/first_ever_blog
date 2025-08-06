@@ -9,6 +9,8 @@ Enter in the creative mind of what it took to build my Magical project!
 
 ![](tech-jobs-in-India--1--9.webp)
 
+------------------------------------------------------------------------
+
 ## *Introduction* {#sec-intro}
 
 Out of all the racial population which of those races have a higher arrest record in murder and drug related offences? 
@@ -16,6 +18,8 @@ Out of all the racial population which of those races have a higher arrest reco
 My prediction is that the African American race has a much higher arrest rate for murder and drug offences than any other race?
 
 The data source that will help me answer my question is [Arrests by Race](https://www.kaggle.com/datasets/rishidamarla/arrests-by-race/data) - which lists out the different types of murders and for each offence the percentage of each race that the crime was committed by is listed.
+
+------------------------------------------------------------------------
 
 ## *Methods* {#sec-methods}
 
@@ -27,7 +31,7 @@ The data source that will help me answer my question is [Arrests by Race](https:
 
 <!-- -->
 
--   What are the variables included? 
+-   What are the variables included? White, Native Hawaiian or Other Pacific Islander, Asian, American Indian, Black or African American
 
 <!-- -->
 
@@ -37,13 +41,23 @@ The data source that will help me answer my question is [Arrests by Race](https:
 
 -   Any other relevant information  
 
+    ------------------------------------------------------------------------
+
 ## *Data sources*
+
+------------------------------------------------------------------------
 
 ## *Packages used*
 
+------------------------------------------------------------------------
+
 ## *Approach*
 
+------------------------------------------------------------------------
+
 ## *Results*
+
+------------------------------------------------------------------------
 
 ## *Discussion*
 

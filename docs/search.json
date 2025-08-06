@@ -25,7 +25,7 @@
     "href": "posts/my_first_post/index.html#sec-methods",
     "title": "A magical project",
     "section": "Methods",
-    "text": "Methods\n\nWhat is the source? The source is from the FBI UCR \n\n\n\nHow was the data collected? law enforcement agencies across the United States provide the data to the FBI. The FBI then arranges the reports, sorts and organizes the information and fills missing information with some they have and then publishes both the raw data and trend analyses.   \n\n\n\nWhat are the variables included? \n\n\n\nHow many records/rows/participants? 32  \n\n\n\nAny other relevant information"
+    "text": "Methods\n\nWhat is the source? The source is from the FBI UCR \n\n\n\nHow was the data collected? law enforcement agencies across the United States provide the data to the FBI. The FBI then arranges the reports, sorts and organizes the information and fills missing information with some they have and then publishes both the raw data and trend analyses.   \n\n\n\nWhat are the variables included? White, Native Hawaiian or Other Pacific Islander, Asian, American Indian, Black or African American\n\n\n\nHow many records/rows/participants? 32  \n\n\n\nAny other relevant information"
   },
   {
     "objectID": "posts/my_first_post/index.html#data-sources",
