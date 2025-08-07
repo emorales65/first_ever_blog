@@ -15,7 +15,7 @@ Enter in the creative mind of what it took to build my Magical project!
 
 Out of all the racial population which of those races have a higher arrest record in murder and drug related offences? 
 
-My prediction is that the African American race has a much higher arrest rate for murder and drug offences than any other race?
+My prediction is that the African American race has a much higher arrest rate for murder and Weapon possesion than the white and Hispanic race
 
 The data source that will help me answer my question is [Arrests by Race](https://www.kaggle.com/datasets/rishidamarla/arrests-by-race/data) - which lists out the different types of murders and for each offence the percentage of each race that the crime was committed by is listed.
 
@@ -45,6 +45,8 @@ The data source that will help me answer my question is [Arrests by Race](https:
 
 ## *Data sources*
 
+R studio, GitHub
+
 ------------------------------------------------------------------------
 
 ## *Packages used*
@@ -53,14 +55,151 @@ The data source that will help me answer my question is [Arrests by Race](https:
 
 ## *Approach*
 
+In my data I am going to analyze 3 different races, I am also going to look at the data specifically between charges and murder charges and how much more charges those 3 specific races committed those crimes, I am then going to look at the differences that African Americans had with both of the charges had and see if any other race had either more or less than the total amount of offense charges than the African american race had.
+
 ------------------------------------------------------------------------
 
 ## *Results*
 
+```{r}
+#| echo: true
+#| fig-height: 10
+# install.packages("ggplot2")
+library(ggplot2)
+library(tidyverse)
+mydata <- read.csv("../../18tbl43a.csv")
+
+mydata$Race..Total <- as.numeric(
+  gsub(
+    ",",
+    "",
+    mydata$Race..Total
+  )
+)
+
+mydata$Race..White <- as.numeric(
+  gsub(
+    ",",
+    "",
+    mydata$Race..White
+  )
+)
+
+mydata$Race..Black.or.African.American<-as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Race..Black.or.African.American
+  )
+)
+
+mydata$Race..American.Indian.or.Alaska.Native <- as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Race..American.Indian.or.Alaska.Native
+  )
+)
+
+mydata$Race..Asian <-as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Race..Asian
+  )
+)
+
+mydata$Race..American.Indian.or.Alaska.Native<-as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Race..American.Indian.or.Alaska.Native
+  )
+)
+
+mydata$Race..Native.Hawaiian.or.Other.Pacific.Islander<-as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Race..Native.Hawaiian.or.Other.Pacific.Islander
+  )
+)
+
+mydata$Ethnicity..Not.Hispanic.or.Latino<-as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Ethnicity..Not.Hispanic.or.Latino
+  )
+)
+
+mydata$Ethnicity..Total<- as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Ethnicity..Total
+  )
+)
+
+mydata$Ethnicity..Hispanic.or.Latino<-as.numeric(
+  gsub(
+    ",",
+    "",
+      mydata$Ethnicity..Hispanic.or.Latino
+  )
+)
+
+mydata_fixed <- gather(
+  slice(mydata, c(-1)),  
+  Group, 
+  Arrests, 
+  c(Race..White:Race..Black.or.African.American, Ethnicity..Hispanic.or.Latino), 
+  factor_key = TRUE
+  
+)
+mydata_fixed <- mydata_fixed |> select(c(1, 17:18))
+mydata_fixed$Group <- gsub("Race..", "", mydata_fixed$Group)
+mydata_fixed$Group <- gsub("\\.", " ", mydata_fixed$Group)
+
+ 
+
+ggplot(data = mydata_fixed, mapping = aes(x = Arrests , y = Offense.charged, color = Group, shape = Group)) + geom_point(size = 4) + theme_classic() + theme(legend.position="bottom") +  guides(color = guide_legend(nrow = 3)) + labs(title = "2018 Crimes commited by Race", y = "Offenses Commited", x = "Arrests for the crime")
+
+mydata_percent <- mydata_fixed
+
+# white
+mydata_percent$Arrests <- mydata_percent$Arrests / 249604563
+#black
+mydata_percent$Arrests <- mydata_percent$Arrests / 43857361
+#hispanic
+mydata_percent$Arrests <- mydata_percent$Arrests /59468833
+
+```
+
+```{r}
+#| fig-height: 10
+#| fig-width: 10
+
+mydata_all <- gather(
+  slice(mydata, c(-1)),  
+  Group, 
+  Arrests, 
+  c(Race..White:Race..Native.Hawaiian.or.Other.Pacific.Islander, Ethnicity..Hispanic.or.Latino), 
+  factor_key = TRUE
+  
+)
+mydata_all <- mydata_all |> select(c(1, 14:15))
+mydata_all$Group <- gsub("Race..", "", mydata_all$Group)
+mydata_all$Group <- gsub("\\.", " ", mydata_all$Group)
+
+
+
+ggplot(data = mydata_all, mapping = aes(x = Arrests , y = Offense.charged, color = Group, shape = Group)) + geom_point(size = 2) + facet_wrap(~Group) + theme(legend.position="bottom") +  guides(color = guide_legend(nrow = 3))
+ 
+```
+
 ------------------------------------------------------------------------
 
 ## *Discussion*
-
-## 
 
 ------------------------------------------------------------------------

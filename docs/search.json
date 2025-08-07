@@ -4,70 +4,7 @@
     "href": "index.html",
     "title": "quartoCourseBlog",
     "section": "",
-    "text": "Hello, My name is Estephanie! Hope you enjoy my website\nWelcome to my page - it will be all about my work with R and Quarto. Done at Dominican University over a 5 day course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA magical project\n\n\n\ngoals\n\ngeneral\n\n\n\n\n\n\n\n\n\nAug 6, 2025\n\n\nEstephanie Morales\n\n\n\n\n\n\n\n\n\n\n\n\nExample assignment\n\n\n\ngoals\n\ngeneral\n\n\n\n\n\n\n\n\n\nOct 21, 2022\n\n\nMatt Crump\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/my_first_post/index.html",
-    "href": "posts/my_first_post/index.html",
-    "title": "A magical project",
-    "section": "",
-    "text": "Enter in the creative mind of what it took to build my Magical project!"
-  },
-  {
-    "objectID": "posts/my_first_post/index.html#sec-intro",
-    "href": "posts/my_first_post/index.html#sec-intro",
-    "title": "A magical project",
-    "section": "Introduction",
-    "text": "Introduction\nOut of all the racial population which of those races have a higher arrest record in murder and drug related offences? \nMy prediction is that the African American race has a much higher arrest rate for murder and drug offences than any other race?\nThe data source that will help me answer my question is Arrests by Race - which lists out the different types of murders and for each offence the percentage of each race that the crime was committed by is listed."
-  },
-  {
-    "objectID": "posts/my_first_post/index.html#sec-methods",
-    "href": "posts/my_first_post/index.html#sec-methods",
-    "title": "A magical project",
-    "section": "Methods",
-    "text": "Methods\n\nWhat is the source? The source is from the FBI UCR \n\n\n\nHow was the data collected? law enforcement agencies across the United States provide the data to the FBI. The FBI then arranges the reports, sorts and organizes the information and fills missing information with some they have and then publishes both the raw data and trend analyses.   \n\n\n\nWhat are the variables included? White, Native Hawaiian or Other Pacific Islander, Asian, American Indian, Black or African American\n\n\n\nHow many records/rows/participants? 32  \n\n\n\nAny other relevant information"
-  },
-  {
-    "objectID": "posts/my_first_post/index.html#data-sources",
-    "href": "posts/my_first_post/index.html#data-sources",
-    "title": "A magical project",
-    "section": "Data sources",
-    "text": "Data sources"
-  },
-  {
-    "objectID": "posts/my_first_post/index.html#packages-used",
-    "href": "posts/my_first_post/index.html#packages-used",
-    "title": "A magical project",
-    "section": "Packages used",
-    "text": "Packages used"
-  },
-  {
-    "objectID": "posts/my_first_post/index.html#approach",
-    "href": "posts/my_first_post/index.html#approach",
-    "title": "A magical project",
-    "section": "Approach",
-    "text": "Approach"
-  },
-  {
-    "objectID": "posts/my_first_post/index.html#results",
-    "href": "posts/my_first_post/index.html#results",
-    "title": "A magical project",
-    "section": "Results",
-    "text": "Results"
-  },
-  {
-    "objectID": "posts/my_first_post/index.html#discussion",
-    "href": "posts/my_first_post/index.html#discussion",
-    "title": "A magical project",
-    "section": "Discussion",
-    "text": "Discussion"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Summary",
-    "section": "",
-    "text": "The data I wanted to truly focus on was on r"
+    "text": "Hello, My name is Estephanie! Hope you enjoy my website\nWelcome to my page - it will be all about my work with R and Quarto. Done at Dominican University over a 5 day course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA magical project\n\n\n\ngoals\n\ngeneral\n\n\n\n\n\n\n\n\n\nAug 6, 2025\n\n\nEstephanie Morales\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "readme.html",
@@ -154,17 +91,66 @@
     "text": "See this growing list of quarto resources for much, much more:\nhttps://github.com/mcanouil/awesome-quarto"
   },
   {
-    "objectID": "posts/Example_assignment/index.html",
-    "href": "posts/Example_assignment/index.html",
-    "title": "Example assignment",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Summary",
     "section": "",
-    "text": "This assignment engages you in the process of introspection. Your task is to use introspection to evaluate and describe your own mental imagery abilities. Attempt to answer the following kinds of questions. What is your mental imagery like? Do you have mental imagery for different kinds of senses? Is your mental imagery vivid and life-like or very different from normal perception? How would you describe your mental imagery?\nYou should write a minimum of 250 words, but feel free to write more. Submit your document on blackboard by the due date."
+    "text": "The data I wanted to truly focus on was on r"
   },
   {
-    "objectID": "posts/Example_assignment/index.html#my-mental-imagery",
-    "href": "posts/Example_assignment/index.html#my-mental-imagery",
-    "title": "Example assignment",
-    "section": "My mental imagery",
-    "text": "My mental imagery\nMy mental imagery is like…"
+    "objectID": "posts/my_first_post/index.html",
+    "href": "posts/my_first_post/index.html",
+    "title": "A magical project",
+    "section": "",
+    "text": "Enter in the creative mind of what it took to build my Magical project!"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#sec-intro",
+    "href": "posts/my_first_post/index.html#sec-intro",
+    "title": "A magical project",
+    "section": "Introduction",
+    "text": "Introduction\nOut of all the racial population which of those races have a higher arrest record in murder and drug related offences? \nMy prediction is that the African American race has a much higher arrest rate for murder and Weapon possesion than the white and Hispanic race\nThe data source that will help me answer my question is Arrests by Race - which lists out the different types of murders and for each offence the percentage of each race that the crime was committed by is listed."
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#sec-methods",
+    "href": "posts/my_first_post/index.html#sec-methods",
+    "title": "A magical project",
+    "section": "Methods",
+    "text": "Methods\n\nWhat is the source? The source is from the FBI UCR \n\n\n\nHow was the data collected? law enforcement agencies across the United States provide the data to the FBI. The FBI then arranges the reports, sorts and organizes the information and fills missing information with some they have and then publishes both the raw data and trend analyses.   \n\n\n\nWhat are the variables included? White, Native Hawaiian or Other Pacific Islander, Asian, American Indian, Black or African American\n\n\n\nHow many records/rows/participants? 32  \n\n\n\nAny other relevant information"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#data-sources",
+    "href": "posts/my_first_post/index.html#data-sources",
+    "title": "A magical project",
+    "section": "Data sources",
+    "text": "Data sources\nR studio, GitHub"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#packages-used",
+    "href": "posts/my_first_post/index.html#packages-used",
+    "title": "A magical project",
+    "section": "Packages used",
+    "text": "Packages used"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#approach",
+    "href": "posts/my_first_post/index.html#approach",
+    "title": "A magical project",
+    "section": "Approach",
+    "text": "Approach\nIn my data I am going to analyze 3 different races, I am also going to look at the data specifically between charges and murder charges and how much more charges those 3 specific races committed those crimes, I am then going to look at the differences that African Americans had with both of the charges had and see if any other race had either more or less than the total amount of offense charges than the African american race had."
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#results",
+    "href": "posts/my_first_post/index.html#results",
+    "title": "A magical project",
+    "section": "Results",
+    "text": "Results\n\n# install.packages(\"ggplot2\")\nlibrary(ggplot2)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ lubridate 1.9.4     ✔ tibble    3.3.0\n✔ purrr     1.1.0     ✔ tidyr     1.3.1\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nmydata &lt;- read.csv(\"../../18tbl43a.csv\")\n\nmydata$Race..Total &lt;- as.numeric(\n  gsub(\n    \",\",\n    \"\",\n    mydata$Race..Total\n  )\n)\n\nmydata$Race..White &lt;- as.numeric(\n  gsub(\n    \",\",\n    \"\",\n    mydata$Race..White\n  )\n)\n\nmydata$Race..Black.or.African.American&lt;-as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Race..Black.or.African.American\n  )\n)\n\nmydata$Race..American.Indian.or.Alaska.Native &lt;- as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Race..American.Indian.or.Alaska.Native\n  )\n)\n\nmydata$Race..Asian &lt;-as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Race..Asian\n  )\n)\n\nmydata$Race..American.Indian.or.Alaska.Native&lt;-as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Race..American.Indian.or.Alaska.Native\n  )\n)\n\nmydata$Race..Native.Hawaiian.or.Other.Pacific.Islander&lt;-as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Race..Native.Hawaiian.or.Other.Pacific.Islander\n  )\n)\n\nmydata$Ethnicity..Not.Hispanic.or.Latino&lt;-as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Ethnicity..Not.Hispanic.or.Latino\n  )\n)\n\nmydata$Ethnicity..Total&lt;- as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Ethnicity..Total\n  )\n)\n\nmydata$Ethnicity..Hispanic.or.Latino&lt;-as.numeric(\n  gsub(\n    \",\",\n    \"\",\n      mydata$Ethnicity..Hispanic.or.Latino\n  )\n)\n\nmydata_fixed &lt;- gather(\n  slice(mydata, c(-1)),  \n  Group, \n  Arrests, \n  c(Race..White:Race..Black.or.African.American, Ethnicity..Hispanic.or.Latino), \n  factor_key = TRUE\n  \n)\nmydata_fixed &lt;- mydata_fixed |&gt; select(c(1, 17:18))\nmydata_fixed$Group &lt;- gsub(\"Race..\", \"\", mydata_fixed$Group)\nmydata_fixed$Group &lt;- gsub(\"\\\\.\", \" \", mydata_fixed$Group)\n\n \n\nggplot(data = mydata_fixed, mapping = aes(x = Arrests , y = Offense.charged, color = Group, shape = Group)) + geom_point(size = 4) + theme_classic() + theme(legend.position=\"bottom\") +  guides(color = guide_legend(nrow = 3)) + labs(title = \"2018 Crimes commited by Race\", y = \"Offenses Commited\", x = \"Arrests for the crime\")\n\n\n\n\n\n\n\nmydata_percent &lt;- mydata_fixed\n\n# white\nmydata_percent$Arrests &lt;- mydata_percent$Arrests / 249604563\n#black\nmydata_percent$Arrests &lt;- mydata_percent$Arrests / 43857361\n#hispanic\nmydata_percent$Arrests &lt;- mydata_percent$Arrests /59468833\n\n\nmydata_all &lt;- gather(\n  slice(mydata, c(-1)),  \n  Group, \n  Arrests, \n  c(Race..White:Race..Native.Hawaiian.or.Other.Pacific.Islander, Ethnicity..Hispanic.or.Latino), \n  factor_key = TRUE\n  \n)\nmydata_all &lt;- mydata_all |&gt; select(c(1, 14:15))\nmydata_all$Group &lt;- gsub(\"Race..\", \"\", mydata_all$Group)\nmydata_all$Group &lt;- gsub(\"\\\\.\", \" \", mydata_all$Group)\n\n\n\nggplot(data = mydata_all, mapping = aes(x = Arrests , y = Offense.charged, color = Group, shape = Group)) + geom_point(size = 2) + facet_wrap(~Group) + theme(legend.position=\"bottom\") +  guides(color = guide_legend(nrow = 3))"
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#discussion",
+    "href": "posts/my_first_post/index.html#discussion",
+    "title": "A magical project",
+    "section": "Discussion",
+    "text": "Discussion"
   }
 ]
